@@ -1,0 +1,21 @@
+{
+    "name": "tonnyorg/laraseed",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "TonnyORG\\LaraSeed\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^6.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TonnyORG\\LaraSeed\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
