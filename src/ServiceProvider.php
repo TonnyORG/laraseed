@@ -84,7 +84,6 @@ class ServiceProvider extends IlluminateServiceProvider
 
         $optionalMigrationGroups = [
             'administrators',
-            'renaming',
             'soft-deletes',
         ];
 

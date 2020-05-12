@@ -14,7 +14,7 @@ class CreateSeedersTable extends Migration
     public function up()
     {
         Schema::create('seeders', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();
             $table->string('class')->unique();
             $table->datetime('created_at')->nullable();
         });
